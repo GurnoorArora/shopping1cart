@@ -1,0 +1,29 @@
+.aboutPageDiv {
+  min-height: calc(100vh - 156px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+}
+.aboutPageHeading {
+  font-size: 2.5rem;
+}
+.aboutPageText {
+  font-size: 1.6rem;
+}
+.fakestoreBtn {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10px 15px;
+  cursor: pointer;
+  background: transparent;
+  box-shadow: 0 0 5px 2px black;
+  color: rgb(4, 4, 4);
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  text-shadow: 1px 1px 5px black;
+}
